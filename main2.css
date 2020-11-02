@@ -4,9 +4,9 @@
 }
 
 body {
-  background: #181A42;
-  background: -webkit-linear-gradient(to right, #181A42, #116879);
-  background: linear-gradient(to right, #181A42, #116879);
+  background: #181a42;
+  background: -webkit-linear-gradient(to right, #181a42, #116879);
+  background: linear-gradient(to right, #181a42, #116879);
 
   color: white;
   padding: 50px;
@@ -14,5 +14,10 @@ body {
 
 #out {
   font-size: 95px;
+  color: #11902c;
+}
+
+#two {
+  font-size: 50px;
   color: #11902c;
 }
