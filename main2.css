@@ -10,6 +10,7 @@ body {
 
   color: white;
   padding: 50px;
+  justify-content: center;
 }
 
 #out {
@@ -17,7 +18,16 @@ body {
   color: #11902c;
 }
 
-#two {
-  font-size: 50px;
-  color: #11902c;
+button {
+  font-family: "Roboto", sans-serif, white;
+  background: linear-gradient(to left, #1ff01f, #149161, #1ff01f);
+  text-decoration: none;
+  padding: 10px 58px;
+  border-radius: 3px;
+  background-size: 200%;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-position: right;
 }
