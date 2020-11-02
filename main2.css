@@ -1,0 +1,18 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+body {
+  background: #181A42;
+  background: -webkit-linear-gradient(to right, #181A42, #116879);
+  background: linear-gradient(to right, #181A42, #116879);
+
+  color: white;
+  padding: 50px;
+}
+
+#out {
+  font-size: 95px;
+  color: #11902c;
+}
