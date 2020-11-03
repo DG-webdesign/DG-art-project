@@ -4,6 +4,8 @@
 }
 
 body {
+  width: 400px;
+  height: 300px;
   background: #181a42;
   background: -webkit-linear-gradient(to right, #181a42, #116879);
   background: linear-gradient(to right, #181a42, #116879);
@@ -22,7 +24,7 @@ button {
   font-family: "Roboto", sans-serif, white;
   background: linear-gradient(to left, #1ff01f, #149161, #1ff01f);
   text-decoration: none;
-  padding: 10px 58px;
+  padding: 10px 76px;
   border-radius: 3px;
   background-size: 200%;
   transition: 0.5s;
@@ -30,4 +32,8 @@ button {
 
 button:hover {
   background-position: right;
+}
+
+input {
+  padding: 10px 20px;
 }
